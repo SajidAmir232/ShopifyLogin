@@ -21,7 +21,9 @@ export default async function ResetPasswordPage({
         <section className="auth-card">
           <aside className="auth-aside">
             <div>
-              <Image className="aside-mark" src="/torq-logo.jpg" width={76} height={76} alt="" unoptimized />
+              <Link className="aside-mark-link" href="https://torqbearingsstore.myshopify.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit TORQ Bearings store">
+                <Image className="aside-mark" src="/torq-logo.jpg" width={76} height={76} alt="" unoptimized />
+              </Link>
               <div className="aside-copy">
                 <span className="eyebrow">Account security</span>
                 <h2>Choose a new password</h2>

@@ -68,6 +68,8 @@ a { color: inherit; }
     var(--navy);
 }
 .aside-mark { width: 76px; height: 76px; object-fit: cover; border-radius: 50%; border: 2px solid rgba(255,255,255,.5); }
+.aside-mark-link { display: inline-flex; border-radius: 50%; }
+.aside-mark-link:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
 .aside-copy { margin-top: 50px; }
 .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; opacity: .7; }
 .aside-copy h2 { margin: 16px 0 14px; font: 700 31px/1.2 "Segoe UI", Arial, sans-serif; letter-spacing: -.03em; }
